@@ -6,7 +6,7 @@ let cal = 0;
 
 const addFruit = async (fruit) => {
   const photoRes = await fetch(
-    `https://pixabay.com/api/?key=37050205-5c5be08f93fbd5e25e5a507d3&q=${fruit}&image_type=photo&category=food`
+    `https://pixabay.com/api/?key=37050205-5c5be08f93fbd5e25e5a507d3&q=${fruit.name}&image_type=photo&category=food`
   );
   const photos = await photoRes.json();
   console.log(photos);
