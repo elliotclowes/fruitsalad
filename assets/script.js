@@ -42,7 +42,7 @@ const addFruit = async (fruit) => {
     cal += fruit.nutritions.calories;
     fruitNutrition.textContent = cal;
   };
-  
+ 
 
 const fetchFruitData = async (fruit) => {
   try {
