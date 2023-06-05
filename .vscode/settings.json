@@ -2,9 +2,4 @@
     "workbench.preferredHighContrastLightColorTheme": "Default High Contrast Light",
     "workbench.preferredLightColorTheme": "Default Light Modern",
     "material-icon-theme.activeIconPack": "angular",
-    "workbench.colorCustomizations": {
-        "activityBar.background": "#3F2442",
-        "titleBar.activeBackground": "#58325C",
-        "titleBar.activeForeground": "#FCF9FC"
-    }
 }
