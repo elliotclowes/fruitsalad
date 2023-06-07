@@ -47,7 +47,7 @@ const addFruit = async (fruit) => {
 const fetchFruitData = async (fruit) => {
   try {
     const resp = await fetch(
-      `https://fruity-api.onrender.com/api/fruits/${fruit}`
+      `https://elliotsfruitapi.onrender.com/fruits/${fruit}`
     );
 
     if (resp.ok) {
